@@ -1,0 +1,136 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.container2 {
+  margin: 50px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+  overflow: hidden;
+  width: calc(100vw - 10vw);
+  max-width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10pc rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: var(--color1);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+/* Flex & Grid */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Backgrounds & Coloured Buttons  */
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--color1);
+  color: #ffffff;
+}
+
+.bg-danger,
+.btn-danger {
+  background-color: var(--color6);
+  color: #ffffff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--color3);
+  color: #ffffff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--color4);
+  color: #333333;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--color2);
+  color: #ffffff;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #ffffff;
+}
+
+/* Text Color */
+
+.text-primary {
+  color: var(--color1);
+}
+
+.text-dark {
+  color: var(--color3);
+}
+
+.text-light {
+  color: var(--color4);
+}
+
+.text-secondary {
+  color: var(--color2);
+}
